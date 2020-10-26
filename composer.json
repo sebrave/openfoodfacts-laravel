@@ -15,11 +15,17 @@
             "email": "eddie@palmans.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebrave/openfoodfacts-php.git"
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
         "guzzlehttp/guzzle": "^6.3.1|^7.0",
         "illuminate/support": "5.7.x|5.8.x|^6.0|^7.0|^8.0",
-        "openfoodfacts/openfoodfacts-php": "^0.2.3"
+        "sebrave/openfoodfacts-php": "^0.2.3"
     },
     "require-dev": {
         "orchestra/testbench": "^3.7|4.*|5.*|6.*",
